@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login Form</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="message signup">
+                <div class="btn-wrapper">
+                    <button class="button" id="signup">Registrarse</button>
+                    <button class="button" id="login">Iniciar Sesión</button>
+                </div>
+            </div>
+            <div class="form form--signup">
+                <div class="form--heading">Bienvenido! Regístrate</div>
+                <form autocomplete="off">
+                    <input type="text" placeholder="Aquí tu nombre" />
+                    <input type="email" placeholder="Ej: correo@correo.com" />
+                    <input type="password" placeholder="Contraseña +6 carácteres" />
+                    <button class="button">Registrarme :)</button>
+                </form>
+            </div>
+            <div class="form form--login">
+                <div class="form--heading">Hola de nuevo!</div>
+                <form autocomplete="off">
+                    <input type="text" placeholder="Ingresa tu nombre" />
+                    <input
+                        type="password"
+                        placeholder="Ingresa tu contraseña"
+                    />
+                    <button class="button">Iniciar Sesión</button>
+                </form>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
